@@ -11,5 +11,10 @@ pipeline{
                 echo "this is sonar"
             }
         }
+        stage('test'){
+            steps{
+                echo"this is test"
+            }
+        }
     }
 }
