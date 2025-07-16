@@ -1,4 +1,4 @@
-pipeline{
+ pipeline{
     agent {
         label 'java-slave'
     }
@@ -9,10 +9,9 @@ pipeline{
         stage('build'){
             steps{
                 echo "hi this is siva"
-                sh 'git clone https://github.com/devopswithcloud/spring-petclinic.git'{
+                sh 'git clone https://github.com/devopswithcloud/spring-petclinic.git'
                 sh 'mvn validate'
                 }
             }
-        }
     }
 }
