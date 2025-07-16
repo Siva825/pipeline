@@ -8,7 +8,7 @@
     stages{
         stage('build'){
             steps{
-                git clone 'https://github.com/devopswithcloud/spring-petclinic.git'{
+                sh 'git clone https://github.com/devopswithcloud/spring-petclinic.git'{
                 sh 'mvn validate'
                 }
             }
