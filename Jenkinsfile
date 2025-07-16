@@ -10,12 +10,8 @@
         stage('build'){
             steps{
                 echo "hi this is siva"
-                sh 'rm -rf spring-petclinic'
-                sh 'git clone https://github.com/devopswithcloud/spring-petclinic.git'
-                dir('spring-petclinic'){
+                sh 'git clone https://https://github.com/devopswithcloud/spring-petclinic.git'
                   sh 'mvn validate'  
-                }
-                
                 }
             }
     }
