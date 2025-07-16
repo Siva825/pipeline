@@ -5,6 +5,9 @@
     tools{
         maven 'Maven 3.8.9'
     }
+    options{
+        cleanWs ()
+    }
     stages{
         stage('build'){
             steps{
@@ -18,3 +21,4 @@
             }
     }
 }
+ 
