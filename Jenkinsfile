@@ -2,16 +2,13 @@
     agent {
         label 'java-slave'
     }
-    tools{
-        maven 'Maven 3.8.9'
-    }
+    
      
     stages{
         stage('build'){
             steps{
                 echo "hi this is siva"
-                sh 'git clone https://https://github.com/devopswithcloud/spring-petclinic.git'
-                  sh 'mvn validate'  
+               
                 }
             }
     }
