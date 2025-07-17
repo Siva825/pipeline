@@ -7,7 +7,7 @@
     stages{
         stage('build'){
             steps{
-                echo "hi this is "
+                echo "hi this is oka"
                
                 }
             }
