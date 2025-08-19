@@ -1,14 +1,9 @@
  pipeline{
-    agent {
-        label 'java-slave'
-    }
-    
-     
+    agent any  
     stages{
         stage('build'){
             steps{
-                echo "hi this is okay"
-               
+                echo "hi this is siva            
                 }
             }
     }
