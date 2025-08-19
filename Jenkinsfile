@@ -1,10 +1,10 @@
  pipeline{
-    agent any  
+    agent any
     stages{
         stage('build'){
             steps{
-                echo "hi this is siva            
-                }
+                echo "this is siva"
             }
+        }
     }
 }
